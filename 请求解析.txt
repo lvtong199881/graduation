@@ -1,0 +1,12 @@
+var errorCode = res.data.errorCode;
+var errorMsg = res.data.errorMsg;
+var version = res.data.version;
+var content = res.data.content;
+if (errorCode != 1) {
+	uni.showToast({
+		title: errorMsg,
+		icon: 'none'
+	});
+}else{
+
+}
